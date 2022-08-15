@@ -1,0 +1,19 @@
+@import url("../js/validate.js.css");
+.forms li {
+  overflow: hidden;
+  list-style-type:none;
+  text-align: center; border-radius: 10px 10px 10px 10px; padding-left: 250px; }
+
+
+
+#name    {background-color:#FFFFFF; border-radius: 1000px 1000px 1000px 1000px; width:700px; margin-right: 350px}
+#email   {background-color:#FFFFFF; border-radius: 1000px 1000px 1000px 1000px; width:700px; margin-right: 350px}
+#message {background-color:#FFFFFF; border-radius: 10px 10px 10px 10px; width: 700px; margin-right: 350px}
+
+.buttons { padding-left: 10px; text-align:center;}
+
+em.error {
+  clear: both; display: block;
+  font-size: 12px; font-style:italic; color: #f00;
+  margin: -10px 0 10px 175px;
+}

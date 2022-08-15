@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css">
+<link href="../css/slideshow.css" rel="stylesheet" type="text/css">
+<link href="../css/team.css" rel="stylesheet" type="text/css">
+<link href="../css/register.css" rel="stylesheet" type="text/css">
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+	
+</head>
+
+<body>
+	
+	    <div id="topnav">
+		<a href="Home.html">HOME</a>
+		<a href="About.html">ABOUT</a>
+		
+  </div>
+	
+  <div id="topnav2">
+	    <a href="Game.html">GAMES</a>
+		<a href="contactus.html">CONTACT</a>
+		
+</div>
+	
+	<div id="logo">
+		<a href="Home.html"><img src="../image/LOGO TRANSPARENT.png" width="15%" alt="Logo"></a>
+	</div>
+	
+<div class="imglensa">
+	
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 9</div>
+    <img src="../image/Lensa Team 1.JPG" style="width:100%" alt="gambalensa">
+    <div class="text">LENSA TEAM</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 9</div>
+    <img src="../image/Lensa Team 2.JPG" style="width:100%" alt="gambalensa">
+    <div class="text">LENSA TEAM</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 9</div>
+    <img src="../image/Lensa Team 3.JPG" style="width:100%" alt="gambalensa">
+    <div class="text">LENSA TEAM</div>
+  </div>
+	
+   <div class="mySlides fade">
+    <div class="numbertext">4 / 9</div>
+    <img src="../image/len3.png" style="width:100%" alt="gambalensa">
+    <div class="text">TECHNICAL TEAM</div>
+  </div>
+	
+   <div class="mySlides fade">
+    <div class="numbertext">5 / 9</div>
+    <img src="../image/len4.png" style="width:100%" alt="gambalensa">
+    <div class="text">VALORANT TECHNICAL TEAM</div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 9</div>
+    <img src="../image/len25.png" style="width:100%" alt="gambalensa">
+    <div class="text">PUBG TECHNICAL TEAM</div>
+  </div>
+	
+	<div class="mySlides fade">
+    <div class="numbertext">7 / 9</div>
+    <img src="../image/len26.png" style="width:100%" alt="gambalensa">
+    <div class="text">PUBG TECHNICAL TEAM</div>
+  </div>
+	
+	<div class="mySlides fade">
+    <div class="numbertext">8 / 9</div>
+    <img src="../image/len20.png" style="width:100%" alt="gambalensa">
+    <div class="text">CASTING FOR VALORANT</div>
+  </div>
+	
+	<div class="mySlides fade">
+    <div class="numbertext">9 / 9</div>
+    <img src="../image/len23.png" style="width:100%" alt="gambalensa">
+    <div class="text">CASTING FOR VALORANT</div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+</div>
+	
+	<div id="about"> 
+	<p>Lendu E-sport Arena or known as Lensa is a UiTM Alor Gajah event hosted by MC111 students. It encourages Malaysians to participate in online gaming tournaments such as Valorant, Mobile Legends Bang Bang (ML) , and Playerunknown's Battlegrounds (PUBG). Furthermore, the Lensa event occurs once a year, and this year for Lensa22 will be conducted in a physical location after being held online last year due to the Covid19.</p>
+	</div>
+	
+	<div id="team">
+	<h1> THE TEAM </h1>
+	<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="../image/Khalis.png" alt="MUHAMAD KHALIS BIN AJAMAIN" onclick="myFunction(this);"> <p>HEADPROJECT LENSA </p>
+  </div>
+  <div class="column">
+    <img src="../image/Nina.jpg" alt="NUR AMANINA BINTI NOR SHAM" onclick="myFunction(this);"> <p>ASSISTANT HEADPROJECT LENSA</p>
+  </div>
+  <div class="column">
+    <img src="../image/Huda.png" alt="NURUL HUDA BINTI AB WAHAB" onclick="myFunction(this);"> <p>SECRETARY 1 LENSA</p>
+  </div>
+  <div class="column">
+    <img src="../image/Effah.jpeg" alt="NUR AFIFAH BINTI NASUHA" onclick="myFunction(this);"> <p>SECRETARY 2 LENSA</p>
+  </div>
+
+   <div class="column">
+    <img src="../image/Syakira.png" alt="SYAKIRA ZAYANI BINTI ROZAHAIRY" onclick="myFunction(this);"> <p>TREASURER LENSA</p>
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:30%" alt="expand">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+	</div>
+	
+	<div id="footer">
+	  <h2>BE OUR CONTESTOR NOW!</h2>
+	  <a href="https://lensa2022.carrd.co/"><button class="button">Register</button></a>
+	  
+<div id="socialmedia">
+	  <a href="https://www.instagram.com/lensa.22/">
+	  <img src="../image/Instagram.png" width="40" alt="">
+	  </a>
+	  <a href="https://twitter.com/lensamc111">
+	  <img src="../image/twitter.png" width="40" alt="">
+	  </a>
+	  <a href="https://vt.tiktok.com/ZSdWDFUFH/">
+	  <img src="../image/TikTok.png" width="40" alt="">
+	  </a>
+	</div>
+	</div>
+	
+	<div id="copyright">
+        Copyright Lensa 2022  All Right Reserved    
+    </div>
+	
+	<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+</body>
+</html>
